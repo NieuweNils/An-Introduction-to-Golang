@@ -37,6 +37,7 @@ func main() {
 
 	popPoint.Add(3)
 	decPoint.Add(3)
+	popPoint.Add2(2)
 
 	fmt.Println("population after:", population)
 	fmt.Println("decimal after:", decimal)

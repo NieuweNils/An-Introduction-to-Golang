@@ -44,4 +44,9 @@ func main() {
 	for _, history := range populationHistory {
 		fmt.Printf("date: %d-%d-%d \t population: %d\n", history.date.year, history.date.month, history.date.day, history.population)
 	}
+
+	fmt.Println(populationHistory)
+	for _, history := range populationHistory {
+		fmt.Printf(history)
+	}
 }

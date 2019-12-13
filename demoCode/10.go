@@ -6,4 +6,5 @@ func main() {
 	a := mypkg.Accessible("theStuff")
 	a.PrintAccessible()
 	a.PrintAccessibleANDNotAccessible()
+
 }

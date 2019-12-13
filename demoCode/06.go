@@ -26,6 +26,7 @@ func main() {
 	today := Date{2019, 12, 13}
 	populationToday := PopulationHistory{today, 572}
 	populationHistory = append(populationHistory, populationToday)
+
 	fmt.Println("type of \"population\":", reflect.TypeOf(populationHistory), "\n")
 	fmt.Println("date today:", populationToday.date)
 
@@ -47,6 +48,6 @@ func main() {
 
 	fmt.Println(populationHistory)
 	for _, history := range populationHistory {
-		fmt.Printf(history)
+		fmt.Println(history)
 	}
 }

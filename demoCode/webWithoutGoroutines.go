@@ -30,7 +30,11 @@ func responseSize(url string) Page {
 }
 
 func main() {
-	urls := []string{"https://example.com/", "https://golang.org/", "https://golang.org/doc", "https://facebook.com"}
+	urls := []string{"https://example.com/",
+		"https://golang.org/",
+		"https://golang.org/doc",
+		"https://facebook.com"}
+
 	for i := 0; i < 100; i++ {
 		urls = append(urls, "https://facebook.com")
 	}
